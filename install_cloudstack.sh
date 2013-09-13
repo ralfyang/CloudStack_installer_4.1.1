@@ -1,6 +1,6 @@
 ### This script is an installer for the cloudstack setup
 ### MySQL DB Stay in local requirement
-### Script by Ralf.yang ralf.yang@@gsshop.com, goody80762@gmail.com
+### Script by Ralf.yang ralf.yang@gsshop.com, goody80762@gmail.com
 ###
 #!/bin/bash
 source cloudstack_install.conf
