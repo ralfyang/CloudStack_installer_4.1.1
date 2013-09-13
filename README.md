@@ -4,6 +4,6 @@
 
    * Requirement: NFS,XCP or Citrix Xen
      * 1st: Modify the cloudstack_install.conf file for your system environment
-     * 2nd: excute the install_cloudstack.sh
+     * 2nd: Execute the install_cloudstack.sh
 
    * Install Test has been done on RHEL 6.4 + XCP 1.6
