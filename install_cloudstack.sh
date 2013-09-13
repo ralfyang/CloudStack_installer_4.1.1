@@ -112,8 +112,10 @@ DomainN=`echo "$cloudstack_manager_fqdn" | sed -e "s/$Host_N\.//g"`
 
 cd /etc/yum.repos.d/
 rm -f CloudStack.repo CentOS-Base.repo
-wget http://10.52.164.252/centos/kickstart/CloudStack.repo
-wget http://10.52.164.252/centos/kickstart/CentOS-Base.repo
+echo "[cloudstack]" > /etc/yum.repos.d/cloudstack.repo
+echo "name=cloudstack" >> /etc/yum.repos.d/cloudstack.repo
+echo "baseurl=http://cloudstack.apt-get.eu/rhel/4.1/" >> /etc/yum.repos.d/cloudstack.repo
+echo "gpgcheck=0" >> /etc/yum.repos.d/cloudstack.repo
 
 yum clean all
 
