@@ -1,5 +1,5 @@
 ### This script is an installer for the cloudstack setup
-### MySQL DB Stay in local requirement
+### MySQL DB will be depolys into the local evironment.
 ### Script by Ralf.yang ralf.yang@gsshop.com, goody80762@gmail.com
 ###
 #!/bin/bash
