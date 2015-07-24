@@ -7,3 +7,7 @@
      * 2nd: Execute the install_cloudstack.sh
 
    * Install Test has been done on RHEL 6.4 + XCP 1.6
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/goody80/cloudstack_installer_4.1.1/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
